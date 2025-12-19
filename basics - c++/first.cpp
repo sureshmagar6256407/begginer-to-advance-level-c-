@@ -17,3 +17,33 @@
 //     cout <<"suresh pun magar" <<endl ;#endl means new line
 //     cout <<"tekam oli" ;
 // }
+
+
+// #include <iostream>
+// using namespace std ; 
+
+// int main ( ) { 
+//     int i   = 1 ; 
+//     int a   =  10 ; 
+//     while (i <=  a )
+//     {
+//         /* code */
+//         cout << i ;
+//         i++ ; 
+//     }
+    
+// }
+
+#include <iostream>
+using namespace std; 
+
+int main() { 
+    int i  =   1 ;
+    do
+    {
+        /* corde */
+        cout << i* i  <<endl; 
+        i++;
+    } while (i <= 20 );
+    
+}
