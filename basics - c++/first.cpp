@@ -65,18 +65,32 @@
 // }
 
 // print all odd  number less than 20
+// #include <iostream>
+// using namespace std; 
+
+// int main () { 
+//     int i  = 1 ;
+//     while (i<= 20)
+//     {
+//         if (i % 2 != 0) {
+            
+//             cout << i <<endl;
+//         }
+//         i++ ;
+//     }
+    
+// }
+
+
 #include <iostream>
 using namespace std; 
 
-int main () { 
-    int i  = 1 ;
-    while (i<= 20)
+int main() {
+    int a = 0 ; 
+    while (a<=10)
     {
-        if (i % 2 != 0) {
-            
-            cout << i <<endl;
-        }
-        i++ ;
+        /* code */
+        cout << a <<endl;
+        a++;
     }
-    
 }
