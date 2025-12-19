@@ -34,16 +34,32 @@
     
 // }
 
-#include <iostream>
-using namespace std; 
+// #include <iostream>
+// using namespace std; 
 
-int main() { 
-    int i  =   1 ;
-    do
-    {
-        /* corde */
-        cout << i* i  <<endl; 
-        i++;
-    } while (i <= 20 );
+// int main() { 
+//     int i  =   1 ;
+//     do
+//     {
+//         /* corde */
+//         cout << i* i  <<endl; 
+//         i++;
+//     } while (i <= 20 );
     
+// }
+
+// write a program in c++ to print all the even number lesst than20
+#include <iostream>
+using namespace std;
+
+int main () {
+   int  i  = 1 ;
+   do
+   {
+    if (i % 2 ==0) {
+        cout <<i <<endl;
+    }
+    i++;
+   }while (i <= 20);
+   
 }
