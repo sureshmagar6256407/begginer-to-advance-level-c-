@@ -199,30 +199,48 @@
 
 // enter in the number thorugh the keyborad whether it is prime or not
 
+// #include <iostream>
+// using namespace std;
+
+// int main()
+// {
+//     int num;
+//     cout << "Enter the number ::" << endl;
+//     cin >> num;
+
+//     int count = 0;
+//     for (int i = 1; i <= num; i++)
+//     {
+//         if (num % i == 0)
+//         {
+//             count++;
+//         }
+//     }
+
+//     if (count == 2)
+//     {
+//         cout << "this is a prime number";
+//     }
+//     else
+//     {
+//         cout << "this is not a prime number";
+//     }
+// }
+
+// wap  in c++  generate beohacci series  
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    int num;
-    cout << "Enter the number ::" << endl;
-    cin >> num;
+int main() {
+    int n, t1 = 0, t2 = 1, nextTerm = 0;
+    cout << "how much word display? ";
+    cin >> n;
 
-    int count = 0;
-    for (int i = 1; i <= num; i++)
-    {
-        if (num % i == 0)
-        {
-            count++;
-        }
+    for (int i = 1; i <= n; ++i) {
+        cout << t1 << ", ";
+        nextTerm = t1 + t2;
+        t1 = t2;
+        t2 = nextTerm;
     }
-
-    if (count == 2)
-    {
-        cout << "this is a prime number";
-    }
-    else
-    {
-        cout << "this is not a prime number";
-    }
+    return 0;
 }
