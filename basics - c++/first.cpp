@@ -307,25 +307,48 @@
 //     return  0 ;
 // }
 
-#include  <iostream>
-using namespace std ; 
+// #include  <iostream>
+// using namespace std ; 
 
-void circle_perimeter()  {
-    int r ;  
-    cout << "enter the r ;" <<endl ; 
-    cin >> r ; 
-    int c = 2 * (3.4 * r); 
-    cout << c <<endl;
+// void circle_perimeter()  {
+//     int r ;  
+//     cout << "enter the r ;" <<endl ; 
+//     cin >> r ; 
+//     int c = 2 * (3.4 * r); 
+//     cout << c <<endl;
+// }
+// void circle_area() { 
+//     int r ;  
+//     cout <<"Enter the r :: " <<endl ; 
+//     cin  >> r ; 
+//     int A  = 3.4*(r*r) ; 
+//     cout << A <<endl;
+// }
+// int main () { 
+//     circle_perimeter() ;
+//     circle_area () ;
+//     return 0 ;
+// }
+
+
+#include <iostream>
+using namespace std; 
+
+void interest ()  { 
+    int p ; 
+    cout << "ENter the p :: " <<endl ; 
+    cin >> p ; 
+    int t ;  
+    cout << "ENterh the time :: " <<endl ;
+    cin  >> t  ; 
+    int r  ; 
+    cout <<"ENter the rate  :: "  <<endl ; 
+    cin >>r  ; 
+    int i  = p*t*r  ; 
+    cout << i <<endl ; 
 }
-void circle_area() { 
-    int r ;  
-    cout <<"Enter the r :: " <<endl ; 
-    cin  >> r ; 
-    int A  = 3.4*(r*r) ; 
-    cout << A <<endl;
-}
+
 int main () { 
-    circle_perimeter() ;
-    circle_area () ;
-    return 0 ;
+    interest() ; 
+    return  0 ;
 }
