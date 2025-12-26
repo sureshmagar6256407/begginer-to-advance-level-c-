@@ -227,20 +227,39 @@
 //     }
 // }
 
-// wap  in c++  generate beohacci series  
-#include <iostream>
-using namespace std;
+// wap  in c++  generate beohacci series
+// #include <iostream>
+// using namespace std;
 
-int main() {
-    int n, t1 = 0, t2 = 1, nextTerm = 0;
-    cout << "how much word display? ";
-    cin >> n;
+// int main() {
+//     int n, t1 = 0, t2 = 1, nextTerm = 0;
+//     cout << "how much word display? ";
+//     cin >> n;
 
-    for (int i = 1; i <= n; ++i) {
-        cout << t1 << ", ";
-        nextTerm = t1 + t2;
-        t1 = t2;
-        t2 = nextTerm;
-    }
-    return 0;
-}
+//     for (int i = 1; i <= n; ++i) {
+//         cout << t1 << ", ";
+//         nextTerm = t1 + t2;
+//         t1 = t2;
+//         t2 = nextTerm;
+//     }
+//     return 0;
+// }
+
+// wap in c++ using function to display name and age  ;
+
+// #include <iostream>
+// using namespace std;
+
+// // Function definition
+// void displayInfo()
+// {
+//     cout << "Name: John" << endl;
+//     cout << "Age: 25" << endl;
+// }
+
+// int main()
+// {
+//     displayInfo(); // Function call
+//     return 0;
+// }
+
