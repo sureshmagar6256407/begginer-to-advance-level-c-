@@ -263,3 +263,69 @@
 //     return 0;
 // }
 
+// #include <iostream>
+// using namespace std ; 
+
+// void sum () { 
+//     cout << 4 + 5  ;  
+// }
+// int main ( ) { 
+//     sum  () ; 
+//     return 0 ;
+// }
+
+// wap in c ++ find the function aria and perimeter of rectangel 
+
+// #include  <iostream>
+// using namespace std ; 
+
+// void area_rectangle() {
+//     int lenght ; 
+//     cout<< "Enter the  length" << endl;
+//     cin>> lenght ; 
+//     int w ; 
+//     cout<< "Enter the  wide"<< endl;
+//     cin>>w ;
+//     int area  = lenght * w;
+//     cout << area<<endl; 
+    
+// }
+// void area_peimeter() { 
+//     int length ; 
+//     cout<< "Enter the legth :: " ; 
+//     cin>> length ; 
+//     int wide ;  
+//     cout<< "Enter the wide :: " ; 
+//     cin>> wide ;
+//     int final_perimeter  = 2*(length + wide) ;
+//     cout<< final_perimeter <<endl ;
+    
+// }
+// int  main ( ) { 
+//     area_rectangle();
+//     area_peimeter(); 
+//     return  0 ;
+// }
+
+#include  <iostream>
+using namespace std ; 
+
+void circle_perimeter()  {
+    int r ;  
+    cout << "enter the r ;" <<endl ; 
+    cin >> r ; 
+    int c = 2 * (3.4 * r); 
+    cout << c <<endl;
+}
+void circle_area() { 
+    int r ;  
+    cout <<"Enter the r :: " <<endl ; 
+    cin  >> r ; 
+    int A  = 3.4*(r*r) ; 
+    cout << A <<endl;
+}
+int main () { 
+    circle_perimeter() ;
+    circle_area () ;
+    return 0 ;
+}
