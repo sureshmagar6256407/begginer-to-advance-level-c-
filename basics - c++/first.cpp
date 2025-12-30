@@ -264,91 +264,133 @@
 // }
 
 // #include <iostream>
-// using namespace std ; 
+// using namespace std ;
 
-// void sum () { 
-//     cout << 4 + 5  ;  
+// void sum () {
+//     cout << 4 + 5  ;
 // }
-// int main ( ) { 
-//     sum  () ; 
+// int main ( ) {
+//     sum  () ;
 //     return 0 ;
 // }
 
-// wap in c ++ find the function aria and perimeter of rectangel 
+// wap in c ++ find the function aria and perimeter of rectangel
 
 // #include  <iostream>
-// using namespace std ; 
+// using namespace std ;
 
 // void area_rectangle() {
-//     int lenght ; 
+//     int lenght ;
 //     cout<< "Enter the  length" << endl;
-//     cin>> lenght ; 
-//     int w ; 
+//     cin>> lenght ;
+//     int w ;
 //     cout<< "Enter the  wide"<< endl;
 //     cin>>w ;
 //     int area  = lenght * w;
-//     cout << area<<endl; 
-    
+//     cout << area<<endl;
+
 // }
-// void area_peimeter() { 
-//     int length ; 
-//     cout<< "Enter the legth :: " ; 
-//     cin>> length ; 
-//     int wide ;  
-//     cout<< "Enter the wide :: " ; 
+// void area_peimeter() {
+//     int length ;
+//     cout<< "Enter the legth :: " ;
+//     cin>> length ;
+//     int wide ;
+//     cout<< "Enter the wide :: " ;
 //     cin>> wide ;
 //     int final_perimeter  = 2*(length + wide) ;
 //     cout<< final_perimeter <<endl ;
-    
+
 // }
-// int  main ( ) { 
+// int  main ( ) {
 //     area_rectangle();
-//     area_peimeter(); 
+//     area_peimeter();
 //     return  0 ;
 // }
 
 // #include  <iostream>
-// using namespace std ; 
+// using namespace std ;
 
 // void circle_perimeter()  {
-//     int r ;  
-//     cout << "enter the r ;" <<endl ; 
-//     cin >> r ; 
-//     int c = 2 * (3.4 * r); 
+//     int r ;
+//     cout << "enter the r ;" <<endl ;
+//     cin >> r ;
+//     int c = 2 * (3.4 * r);
 //     cout << c <<endl;
 // }
-// void circle_area() { 
-//     int r ;  
-//     cout <<"Enter the r :: " <<endl ; 
-//     cin  >> r ; 
-//     int A  = 3.4*(r*r) ; 
+// void circle_area() {
+//     int r ;
+//     cout <<"Enter the r :: " <<endl ;
+//     cin  >> r ;
+//     int A  = 3.4*(r*r) ;
 //     cout << A <<endl;
 // }
-// int main () { 
+// int main () {
 //     circle_perimeter() ;
 //     circle_area () ;
 //     return 0 ;
 // }
 
+// #include <iostream>
+// using namespace std;
 
-#include <iostream>
-using namespace std; 
+// void interest ()  {
+//     int p ;
+//     cout << "ENter the p :: " <<endl ;
+//     cin >> p ;
+//     int t ;
+//     cout << "ENterh the time :: " <<endl ;
+//     cin  >> t  ;
+//     int r  ;
+//     cout <<"ENter the rate  :: "  <<endl ;
+//     cin >>r  ;
+//     int i  = p*t*r  ;
+//     cout << i <<endl ;
+// }
 
-void interest ()  { 
-    int p ; 
-    cout << "ENter the p :: " <<endl ; 
-    cin >> p ; 
-    int t ;  
-    cout << "ENterh the time :: " <<endl ;
-    cin  >> t  ; 
-    int r  ; 
-    cout <<"ENter the rate  :: "  <<endl ; 
-    cin >>r  ; 
-    int i  = p*t*r  ; 
-    cout << i <<endl ; 
-}
+// int main () {
+//     interest() ;
+//     return  0 ;
+// }
 
-int main () { 
-    interest() ; 
-    return  0 ;
-}
+//  wap in c ++  to find the product of two number using function
+//  1- no argument no return type
+//  #include <iostream>
+//  using namespace std;
+//  int  product() ;
+
+// int  main () {
+//     product () ;
+// }
+
+//  int  product()
+//  {
+//      int a, b, output;
+//      cout << "Enter a and b: ";
+//    cin >> a >> b;
+//    output = a * b;
+//     cout << "Product = " << output << endl;
+// }
+
+
+
+
+
+// 2- with argument but no return type
+// #include  <iostream> 
+// using namespace std ;  
+// void add (int a , int b);
+
+// int main () { 
+//     int a, b  ; 
+//     cout << "Enter a and b" <<endl    ;  
+//     cin >>a >> b ;   
+//     add(a,b);
+// }
+// void add(int a ,int b ) {
+//     int product   ;  
+//     product  = a * b ; 
+//     cout << "product="<<product <<endl ;
+// }
+
+
+// wap in c++ fiind area and perimeter using function   with argument with return type   
