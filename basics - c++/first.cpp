@@ -371,26 +371,113 @@
 //     cout << "Product = " << output << endl;
 // }
 
-
-
-
-
 // 2- with argument but no return type
-// #include  <iostream> 
-// using namespace std ;  
+// #include  <iostream>
+// using namespace std ;
 // void add (int a , int b);
 
-// int main () { 
-//     int a, b  ; 
-//     cout << "Enter a and b" <<endl    ;  
-//     cin >>a >> b ;   
+// int main () {
+//     int a, b  ;
+//     cout << "Enter a and b" <<endl    ;
+//     cin >>a >> b ;
 //     add(a,b);
 // }
 // void add(int a ,int b ) {
-//     int product   ;  
-//     product  = a * b ; 
+//     int product   ;
+//     product  = a * b ;
 //     cout << "product="<<product <<endl ;
 // }
 
+// wap in c++ fiind area and perimeter using function   with argument with return type
+// #include <iostream>
+// using namespace std ;
 
-// wap in c++ fiind area and perimeter using function   with argument with return type   
+// int main () {
+//     int a , l , w  ;
+//     cout << "Enter length and width :" <<endl ;
+//     cin >> l>> w ;
+//     a = area_rect(l ,w) ;
+//     cout << "area ::=" << a << endl ;
+// }
+
+// int area_rect (int l , int w ) {
+//      int a ;
+//      a  =  w * l    ;
+//      return   (a);
+// }
+
+// wap in c++  fo find the simple interest  when the value in PTR is enter through the keyboard
+// #include  <iostream>
+// using namespace std ;
+
+// void main ()  {
+//     int p ,t ,r  , s   ;
+//     cout << "Enter p , t and r ::" <<endl;
+//     cin >> p  >> t >> r   ;
+//     s   = simple_interest(p , t ,r) ;
+//     cout << "simple interest =" << s << endl  ;
+// }
+// int simple_interest(int p , int t , int r ) {
+//     int  s     ;
+//     s  = p * t * r ;
+//     return (s);
+// }
+
+// wap to find arean and perimeter of rectangle using function with no argument but return type
+#include <iostream>
+// using namespace std;
+// int get_area();
+// int get_perimeter();
+// int main()
+// {
+//     int area = get_area();
+//     cout << "area: " << area << endl;
+
+//     int perimeter = get_perimeter();
+//     cout << "perimeter: " << perimeter << endl;
+//     return 0;
+// }
+
+// int get_area()
+// {
+//     int w, h;
+//     int area;
+//     cout << "Enter width and height: " << endl;
+//     cin >> w >> h;
+//     area = w * h;
+//     return area;
+// }
+
+// int get_perimeter()
+// {
+//     int w, h;
+//     int perimeter;
+//     cout << "Enter width and height: " << endl;
+//     cin >> w >> h;
+//     perimeter = 2 * (w + h);
+//     return perimeter;
+// }
+
+// find the simple interest using function with no argument but return typeR
+#include <iostream> 
+// using namespace std ;  
+// int  get_interest() ; 
+ 
+// int main (){
+//     int  simple_interest = get_interest() ;  
+//     cout <<"simple_interest"<<simple_interest <<endl ; 
+//     return   0 ;
+
+// }
+
+// int get_interest() {
+//     int p_amount ,rate , time  ;  
+//     int simple_interest  ;  
+//     cout<<"Enter p_amount rate and time" <<endl ;  
+//     cin >> p_amount >> rate >> time ;  
+//     simple_interest  = (p_amount * time * rate) /100  ;
+//     return simple_interest ;   
+// }
+
+
+// wap c++ to find the factorial of number using function 
