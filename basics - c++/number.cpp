@@ -29,32 +29,6 @@
 //     return simple_interest ;   
 // }
 
-// wap in c++  to find the greater amount of two number   
-#include <iostream> 
-using  namespace std;  
-int get_num() ; 
-
-int main() {
-    int greate_num  = get_num()  ;  
-    cout <<"greate_num" <<greate_num ; 
-    return  0;
- }
- int get_num() { 
-    int greate_num ; 
-    int a,  b ; 
-    cout << "Enter the a and b " <<endl ; 
-    cin>> a >> b ; 
-    if (a >b   ) { 
-        greate_num  = a ; 
-    }
-    else if (b > a ) { 
-        greate_num = b;
-    }
-    else { 
-        cout << "a and b is equal" <<endl ; 
-    }
-    return greate_num  ;
- }
 
 // #include <iostream> 
 // using namespace std ;  
@@ -66,13 +40,13 @@ int main() {
 // }
 
 // int get_factorial () { 
-//     int num ;  
+    //     int num ;  
 //     cout <<"Enter the num: "  ;  
 //     cin >> num ;
 //     int i   = 1   ; 
 //     int factorial =   1 ; 
 //     while  (i <= num) { 
-//         factorial = factorial * i   ;
+    //         factorial = factorial * i   ;
 //         i++ ;
 //     }
 //     return factorial ;
@@ -80,3 +54,55 @@ int main() {
 
 
 
+
+// wap in c++  to find the greater amount of two number   
+// #include <iostream> 
+// using  namespace std;  
+// int get_num() ; 
+
+// int main() {
+//     int greate_num  = get_num()  ;  
+//     cout <<"greate_num" <<greate_num ; 
+//     return  0;
+//  }
+//  int get_num() { 
+//     int greate_num ; 
+//     int a,  b ; 
+//     cout << "Enter the a and b " <<endl ; 
+//     cin>> a >> b ; 
+//     if (a >b   ) { 
+//         greate_num  = a ; 
+//     }
+//     else if (b > a ) { 
+//         greate_num = b;
+//     }
+//     else { 
+//         cout << "a and b is equal" <<endl ; 
+//     }
+//     return greate_num  ;
+//  }
+
+
+//  using function to check enter wheter num  is armstrong or not 
+#include <iostream> 
+using namespace std ;  
+int get_num() ; 
+int main() {  
+    int arm_num   = get_arm ()  ; 
+    cout << "arm_num" <<arm_num  ;  
+    return   0 ; 
+}
+int get_arm() { 
+    int arm_num    ; 
+    int the_num  = 153;  
+    int user_num   ;  
+    cout <<"enter the num ::" <<endl ;  
+    cin >> user_num ; 
+    for (int i = 1 ; i<user_num ; i++) { 
+        
+
+    }
+
+    return arm_num ; 
+
+}
