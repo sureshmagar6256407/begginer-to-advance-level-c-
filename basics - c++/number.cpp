@@ -109,20 +109,79 @@
 
 
 // write program in c ++ greatest number using 3 number
-#include <iostream> 
-using namespace std ; 
+// #include <iostream> 
+// using namespace std ; 
 
-int main () { 
-    int a , b ,c ; 
-    cout << "Enter the value of a, b and  c : ";
-    cin >> a >> b >> c ; 
-    if (a > b && a > c) { 
-        cout << "a is greatest " << a << endl ; 
+// int main () { 
+//     int a , b ,c ; 
+//     cout << "Enter the value of a, b and  c : ";
+//     cin >> a >> b >> c ; 
+//     if (a > b && a > c) { 
+//         cout << "a is greatest " << a << endl ; 
+//     }
+//     else if (b > a && b > c) { 
+//         cout << "b is greatest " << b << endl ; 
+//     }
+//     else { 
+//         cout << "c is greatest " << c << endl ; 
+//     }
+// }
+
+// #wap the find the factorial of number enter through the keyboard
+// #include <iostream>  
+// using namespace std  ; 
+// int getFactorial(int num) {
+    //     int i = 1 ; 
+//     int factorial = 1 ; 
+//     while (i <= num) { 
+    //         factorial = factorial * i ; 
+    //         i++ ; 
+//     }
+//     return factorial ;
+// }
+// int main () { 
+//     int num ; 
+//     cout << "Enter the number: ";
+//     int result = getFactorial(num) ;
+//     cout << "Factorial of " << num << " is " << result << endl ; 
+// }
+
+
+// #include <iostream>  
+// using namespace std  ; 
+
+// int  main ( ) {  
+//     int i  = 0    ; 
+//      int num  = 10   ;  
+//      while ( i <= num) 
+//      {
+//         /* code */
+//         cout << i << endl;
+//         i ++ ;
+//      }
+     
+
+
+// }
+
+
+
+// wap in c++ to find the sum of digits enter through the keyboard using function
+#include <iostream> 
+using namespace std ;  
+
+int get_sum_of_digits(int num) {
+    int sum = 0;
+    while (num > 0) {
+        sum += num % 10;
+        num /= 10;
     }
-    else if (b > a && b > c) { 
-        cout << "b is greatest " << b << endl ; 
-    }
-    else { 
-        cout << "c is greatest " << c << endl ; 
-    }
+    return sum;
+}
+int main() {
+    int num;
+    cout << "Enter a number: ";
+    cin >> num;
+    cout << "Sum of digits: " << get_sum_of_digits(num) << endl;
+    return 0;
 }
