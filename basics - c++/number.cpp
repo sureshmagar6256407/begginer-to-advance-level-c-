@@ -167,21 +167,36 @@
 
 
 // wap in c++ to find the sum of digits enter through the keyboard using function
-#include <iostream> 
-using namespace std ;  
+// #include <iostream> 
+// using namespace std ;  
+// int get_sum_of_digits(int num) {
+//     int sum = 0;
+//     while (num > 0) {
+//         sum += num % 10;
+//         num /= 10;
+//     }
+//     return sum;
+// }
+// int main() {
+//     int num;
+//     cout << "Enter a number: ";
+//     cin >> num;
+//     cout << "Sum of digits: " << get_sum_of_digits(num) << endl;
+//     return 0;
+// }
 
-int get_sum_of_digits(int num) {
-    int sum = 0;
-    while (num > 0) {
-        sum += num % 10;
-        num /= 10;
-    }
-    return sum;
-}
-int main() {
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
-    cout << "Sum of digits: " << get_sum_of_digits(num) << endl;
-    return 0;
-}
+// wap in c++ to generate efnoserius upto 10 terms using function  
+// #include <iostream> 
+// using namespace std ;  
+
+// void generate_fibonacci(int terms) {
+//     int a = 0, b = 1;
+//     cout << a << " " << b << " ";
+//     for (int i = 2; i < terms; i++) {
+//         int c = a + b;
+//         cout << c << " ";
+//         a = b;
+//         b = c;
+//     }
+// }
+
