@@ -256,3 +256,25 @@
 //     cout << "Factorial of " << num << " is " << factorial(num) << endl;
 //     return 0;
 // }
+
+//wap to multipy two number using function    
+
+// #include <iostream>  
+// using namespace std  ;  
+
+// int multiply(int a, int b) {
+//     return a * b;
+// } 
+// int main() {
+//     int a, b;
+//     cout << "Enter two numbers: ";
+//     cin >> a >> b;
+//     cout << "Product: " << multiply(a, b) << endl;
+//     return 0;
+// }
+
+
+// wap to using function to find the  power of number.if a  is  base and b is a power    
+#include <iostream>
+using namespace std ;  
+
