@@ -199,39 +199,60 @@
 //     }
 // }
 
-#include <iostream>
-#include <cmath>
-using namespace std;
+// #include <iostream>
+// #include <cmath>
+// using namespace std;
 
-bool isArmstrong(int num) {
-    int originalNum = num;
-    int digits = 0;
-    int sum = 0;
+// bool isArmstrong(int num) {
+//     int originalNum = num;
+//     int digits = 0;
+//     int sum = 0;
     
-    // Count number of digits
-    int temp = num;
-    while (temp > 0) {
-        digits++;
-        temp /= 10;
-    } 
-    // Calculate sum of powers
-    temp = num;
-    while (temp > 0) {
-        int digit = temp % 10;
-        sum += pow(digit, digits);
-        temp /= 10;
-    } 
-    return sum == originalNum;
-}
-int main() {
-    int num;
-    cout << "Enter a number: ";
-    cin >> num;
+//     // Count number of digits
+//     int temp = num;
+//     while (temp > 0) {
+//         digits++;
+//         temp /= 10;
+//     } 
+//     // Calculate sum of powers
+//     temp = num;
+//     while (temp > 0) {
+//         int digit = temp % 10;
+//         sum += pow(digit, digits);
+//         temp /= 10;
+//     } 
+//     return sum == originalNum;
+// }
+// int main() {
+//     int num;
+//     cout << "Enter a number: ";
+//     cin >> num;
     
-    if (isArmstrong(num)) {
-        cout << num << " is an Armstrong number" << endl;
-    } else {
-        cout << num << " is not an Armstrong number" << endl;
-    }
-    return 0;
-}
+//     if (isArmstrong(num)) {
+//         cout << num << " is an Armstrong number" << endl;
+//     } else {
+//         cout << num << " is not an Armstrong number" << endl;
+//     }
+//     return 0;
+// }
+
+
+
+// wap using recursion to find the factorail  of numbers enter through the keyboard
+// #include <iostream>
+// using namespace std;
+
+// int factorial(int n) {
+//     if (n == 0) {
+//         return 1;
+//     }
+//     return n * factorial(n - 1);
+// }
+
+// int main() {
+//     int num;
+//     cout << "Enter a number: ";
+//     cin >> num;
+//     cout << "Factorial of " << num << " is " << factorial(num) << endl;
+//     return 0;
+// }
